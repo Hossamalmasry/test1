@@ -1,0 +1,32 @@
+*{margin:0;padding:0}
+/* header */
+body{background-color:#ADADAD;}
+header{width:1280px;height:120px;margin:0 auto;}
+header .header1{width:1280px;height:50px;background-color:#7c4dff;}
+header .header1 .title{ color:#FFF ;font-size:29px ;float:left; margin:13px 20px;}
+header .header1 .search{ float:right;margin:10px 30px;}
+header .header1 .search input{ width:220px;height:25px;padding:0px 10px ;border-radius:15px;border:1px solid gray;}
+header .header1 .search input:hover{ border:2px solid red ;letter-spacing:3px;}
+header .header2{width:1280px; height:70px; background-color:#FFF; border-bottom:2px solid gray;}
+header .header2 .logo{float:left;font-size:25px;margin:20px 15px ; }
+header .header2 .list{float:right;}
+header .header2 .list ul {float:right;}
+header .header2 .list ul li{ list-style-type:none;float:left;margin:0px 5px;}
+header .header2 .list ul li a {text-decoration:none;color:#000000;float:left;background-color:#FF6E80;padding:13px 5px;}
+header .header2 .list ul li a:hover{ border-bottom:3px solid blue;}
+/* end header */
+/*content */
+#content{width:1220px;height:750px;background-color:#f5f5f5;padding:0px 30px;margin:2px auto;}
+#content .right{float:right;width:375px;height:370px; }
+#content .left{margin:150px 60px ;float:left}
+#content .left table tbody tr td{line-height:35px;font-size:24px;letter-spacing:2px}
+#content .left table tbody tr td .hire{float:left;margin:0px 15px}
+#content .left table tbody tr td .down{float:right;margin:0px 10px;}
+#content .left table tbody tr td a{text-decoration:none ;padding:20px 15px;background-color:#c0c0c0;}
+#content .left table tbody tr td .hire  {color:red;background-color"#FFF ;border-radius:15px;border:1px solid gray;}
+#content .left table tbody tr td .hire a{color:white;background-color"#FFF ;border-radius:15px;border-bottom:1px solid gray;}
+ #content .left table tbody tr td .hire a:hover{color:white;background-color"#FFF ;border-radius:15px;border:1px solid gray;}
+ 
+
+ 
+/* end content */
